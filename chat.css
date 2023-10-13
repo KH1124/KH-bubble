@@ -52,7 +52,8 @@ header{
 
 .profile-img{
 
-    width: 3.125rem;
+    width: 2.5rem;
+    margin-top: 0.625rem;
     margin-right: 0.625rem;
 }
 
@@ -60,7 +61,8 @@ header{
 
 .not-profile-img{
     width: 2.5rem;
-    height: 0.625rem;
+    height: 0.001rem;
+    margin-top: 0.625rem;
     margin-right: 0.625rem;
 }
 
@@ -133,10 +135,7 @@ main{
     text-align: left;
 }
 .YH-chat > time{
-    margin-right: 2.5rem;
-}
-.me-chat > time{
-    margin-left: 2.5rem;
+    margin-right: 0.5rem;
 }
 
 /* 날짜선(date-line) 스타일 지정 */
@@ -146,8 +145,8 @@ main{
     margin-top: 15px;
     flex-basis: 100%;
     align-items: center;
-    color: #787878;
-    font-size: 0.875rem;   
+    color: #787878;;
+    font-size: 0.05rem;   
 }
 .date-line::before, .date-line::after{
     content: "";
@@ -173,6 +172,6 @@ main{
     flex-grow: 1;
     height: 1px;
     background-color: rgba(255, 255, 255, 0);
-    font-size: 0px;
+    font-size: 1px;
     line-height: 0px;
 }
